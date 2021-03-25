@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<head>
+<title>Javascript one</title>
+</head>
+<body><input type="button" value="Ingresar otro número" onclick="location.reload()" 
+    style="font-family:Arial;font-size:30pt;width:500px;height:60px;
+    background:#777777;color:#fff444;cursor:pointer;"/>
+
+<script type= "text/javascript">
+var nr;
+nr=prompt('Teclea un numero(1-100)','');
+nr=parseInt(nr);
+ 
+document.write("<table border='1'>");
+ 
+var x=0;
+ 
+for (x = 1; x <= 100; x++)
+{
+	tabel=nr*x;
+	document.write("<tr><td>");
+	document.write(nr+"x"+x+"="+ tabel + "<br>");
+	document.write("</td></tr>");
+    
+
+}
+ 
+document.write("</table>");
+ 
+</script>
+</body>
+</html>
+    
+
+
